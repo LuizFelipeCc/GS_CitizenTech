@@ -1,0 +1,2 @@
+##const formulario = document.querySelector("form");
+O document.querySelector() é um método do JavaScript usado para selecionar e capturar elementos HTML diretamente do seu código para dentro do script.

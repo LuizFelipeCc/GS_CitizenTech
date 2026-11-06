@@ -44,3 +44,23 @@ header ul li a {
     font-size: 24px;
     color: rgb(239, 255, 213)
 }
+.card {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card.baixa {
+    border-left: 16px solid yellow;
+    background-color: white;
+}
+.card.media {
+    border-left: 16px solid orange;
+    background-color: white;
+}
+.card.alta {
+    border-left: 16x solid red;
+    background-color: white;
+}

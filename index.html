@@ -12,16 +12,45 @@
         <img src="src/assets/imgs/SPBandeira.png" alt="Logo SPMelhor">
         <h1><span class="destaque-vermelho">SP</span>Melhor</h1>
         <ul>
-            <li><a href="#problema">Problemas</a></li>
+            <li><a href="#info-problema">Problemas</a></li>
             <li><a href="#tecnologia">Tecnologia</a></li>
             <li><a href="#objetivos">Objetivos</a></li>
             <li><a href="#publico-alvo">Público-Alvo</a></li>
             <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#registrar">Registros</a></li>
         </ul>
     </header>
-    <section id ="problema">
+    
+    <section id="info-problema">
         <h3>Buracos na rua, iluminação falha ou lixo acumulado?</h3>
         <p>Não deixe os problemas do seu bairro passarem despercebidos. Registre em segundos e ajude a cobrar soluções para a sua região.</p>
     </section>
+    
+    <section id="registrar">
+        <h3>Registre um Problema</h3>
+        <p>Descreva o problema que você encontrou e envie para nossa equipe.</p>
+        <form action="">
+            <fieldset>
+                <legend>Mande um Relato</legend>
+                <label for="endereco">Endereço: </label>
+                <input type="text" id="endereco" name="endereco">
+                <br>
+                <label for="gravidade">Gravidade do problema:</label>
+                <select name="gravidade" id="gravidade">
+                    <option value="baixa">Baixo Risco</option>
+                    <option value="media">Médio Risco</option>
+                    <option value="alta">Alto Risco</option>
+                </select>
+                <br>
+                <label for="descricao">Descrição do problema:</label>
+                <input type="text" id="descricao" name="descricao">
+                <br>
+                <button type="button" onclick="cadastrarProblema()">Enviar Problema</button>
+            </fieldset>
+        </form>
+        <div id="lista-cadastros">
+        </div>
+    </section>
+    <script src="src/assets/js/script.js"></script>
 </body>
 </html>
