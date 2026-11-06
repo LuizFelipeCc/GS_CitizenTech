@@ -1,6 +1,6 @@
 *{
     font-family: rawline, sans-serif;
-    font-size: 50px;
+    font-size: 37px;
     margin: 0;
     padding: 0;
 }
@@ -63,4 +63,19 @@ header ul li a {
 .card.alta {
     border-left: 16px solid red;
     background-color: white;
+}
+#info-problema {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#info-problema img {
+    width: 600px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.bloco-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
