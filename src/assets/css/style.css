@@ -1,0 +1,46 @@
+*{
+    font-family: rawline, sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(255, 255, 255); 
+    padding: 6px;
+    margin-left: 5px;
+}
+.destaque-vermelho {
+    color: rgb(196, 0, 8);
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-color:rgb(41, 66, 146);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+header img {
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+}
+corFonte {
+    color: white;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+header ul li a {
+    font-size: 24px;
+    color: rgb(239, 255, 213)
+}
