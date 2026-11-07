@@ -29,12 +29,15 @@
         </div>
     </section>
     <section id="Tecnologia"></section>
+    
     <section id="registrar">
         <h3>Registre um Problema</h3>
         <p>Descreva o problema que você encontrou e envie para nossa equipe.</p>
-        <form action="">
+        <br>
+        <div class="Formulario">
+            <form action="">
             <fieldset>
-                <legend>Mande um Relato</legend>
+                <legend style="font-size: 30px;"><strong>Mande um Relato</strong><legend>
                 <label for="endereco">Endereço: </label>
                 <input type="text" id="endereco" name="endereco">
                 <br>
@@ -46,11 +49,12 @@
                 </select>
                 <br>
                 <label for="descricao">Descrição do problema:</label>
-                <input type="text" id="descricao" name="descricao">
+                <textarea id="descricao" name="descricao"></textarea>
                 <br>
                 <button type="button" onclick="cadastrarProblema()">Enviar Problema</button>
             </fieldset>
-        </form>
+            </form>
+        </div>
         <div id="lista-cadastros">
         </div>
     </section>
