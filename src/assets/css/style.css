@@ -1,14 +1,16 @@
-*{
+* {
     font-family: rawline, sans-serif;
-    font-size: 50px;
+    font-size: 24px;
     margin: 0;
     padding: 0;
 }
+
 h1 {
     color: rgb(255, 255, 255); 
     padding: 6px;
     margin-left: 5px;
 }
+
 .destaque-vermelho {
     color: rgb(196, 0, 8);
 }
@@ -18,20 +20,20 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
 header {
-    background-color:rgb(41, 66, 146);
+    background-color: rgb(41, 66, 146);
     display: flex;
     padding: 10px;
     align-items: center;
 }
+
 header img {
     width: 80px;
     height: 50px;
     margin-left: 10px;
 }
-corFonte {
-    color: white;
-}
+
 header ul {
     display: flex;
     align-items: center;
@@ -40,10 +42,12 @@ header ul {
     margin-left: 30px;
     margin-right: 40px;
 }
+
 header ul li a {
-    font-size: 24px;
-    color: rgb(239, 255, 213)
+    font-size: 20px;
+    color: rgb(239, 255, 213);
 }
+
 .card {
     background-color: white;
     border: 2px solid #ccc;
@@ -52,15 +56,148 @@ header ul li a {
     margin-bottom: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .card.baixa {
     border-left: 16px solid yellow;
     background-color: white;
 }
+
 .card.media {
     border-left: 16px solid orange;
     background-color: white;
 }
+
 .card.alta {
-    border-left: 16x solid red;
+    border-left: 16px solid red;
     background-color: white;
+}
+
+.bloco-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.bloco-texto p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #070707;
+}
+
+.bloco-texto ul {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bloco-texto ul li {
+    font-size: 18px;
+    color: #070707;
+}
+
+#info-problema, #tecnologia, #objetivos, #publico-alvo, #beneficios {
+    display: flex;
+    align-items: flex-start;
+    gap: 45px;
+    padding: 70px;
+}
+
+#info-problema img, #tecnologia img, #objetivos img, #publico-alvo img, #beneficios img {
+    width: 600px;
+    border-radius: 8px;
+}
+
+#tecnologia, #publico-alvo {
+    flex-direction: row-reverse;
+}
+
+
+/* Estilização da Seção de Registro */
+#registrar {
+    padding: 50px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#registrar h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+#registrar p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Caixa do Formulário */
+.form-problema fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #fafafa;
+}
+
+.form-problema legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Estrutura de cada campo */
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.campo label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.campo input, 
+.campo select, 
+.campo textarea {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.campo input:focus, 
+.campo select:focus, 
+.campo textarea:focus {
+    border-color: #0056b3;
+}
+
+/* Botão de Envio */
+.btn-enviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+.btn-enviar:hover {
+    background-color: #003d80;
 }
