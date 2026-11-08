@@ -1,6 +1,10 @@
 * {
     font-family: rawline, sans-serif;
+<<<<<<< HEAD
     font-size: 24px;
+=======
+    font-size: 22px;
+>>>>>>> 17523a40fc5f2ad68a064def321fb9cf76c251b3
     margin: 0;
     padding: 0;
 }
@@ -10,7 +14,13 @@ h1 {
     padding: 6px;
     margin-left: 5px;
 }
+<<<<<<< HEAD
 
+=======
+h3 {
+    font-size: 1.5rem;
+}
+>>>>>>> 17523a40fc5f2ad68a064def321fb9cf76c251b3
 .destaque-vermelho {
     color: rgb(196, 0, 8);
 }
@@ -33,7 +43,13 @@ header img {
     height: 50px;
     margin-left: 10px;
 }
+<<<<<<< HEAD
 
+=======
+.corFonte {
+    color: white;
+}
+>>>>>>> 17523a40fc5f2ad68a064def321fb9cf76c251b3
 header ul {
     display: flex;
     align-items: center;
@@ -76,6 +92,7 @@ header ul li a {
 .bloco-texto {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     gap: 12px;
     margin-top: 10px;
 }
@@ -124,3 +141,20 @@ header ul li a {
     color: #555;
 }
 
+=======
+    gap: 15px;
+}
+.Formulario { 
+    color: white;
+    background-color: rgb(41, 66, 146);
+    width: 400px;
+    height: auto;
+    min-height: 300px;
+    border-radius: 4px;
+    overflow: auto;
+}
+fieldset {
+    padding: 20px;
+    border: none;
+}
+>>>>>>> 17523a40fc5f2ad68a064def321fb9cf76c251b3
