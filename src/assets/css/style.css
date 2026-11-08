@@ -10,6 +10,7 @@ h1 {
     padding: 6px;
     margin-left: 5px;
 }
+
 .destaque-vermelho {
     color: rgb(196, 0, 8);
 }
@@ -25,6 +26,8 @@ header {
     display: flex;
     padding: 10px;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 header img {
@@ -32,6 +35,7 @@ header img {
     height: 50px;
     margin-left: 10px;
 }
+
 header ul {
     display: flex;
     align-items: center;
@@ -44,7 +48,6 @@ header ul {
 header ul li a {
     font-size: 20px;
     color: rgb(239, 255, 213);
-    text-decoration: none;
 }
 
 .card {
@@ -78,14 +81,26 @@ header ul li a {
     margin-top: 10px;
 }
 
-.bloco-texto h3 {
-    font-size: 32px;
+h3 {
+    font-size: 36px;
 }
 
 .bloco-texto p {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5;
-    color: #020202;
+    color: #070707;
+}
+
+.bloco-texto ul {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bloco-texto ul li {
+    font-size: 18px;
+    color: #070707;
 }
 
 #info-problema, #tecnologia, #objetivos, #publico-alvo, #beneficios {
@@ -103,6 +118,7 @@ header ul li a {
 #tecnologia, #publico-alvo {
     flex-direction: row-reverse;
 }
+
 
 /* Estilização da Seção de Registro */
 #registrar {
@@ -122,3 +138,68 @@ header ul li a {
     color: #555;
 }
 
+/* Caixa do Formulário */
+.form-problema fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #fafafa;
+}
+
+.form-problema legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Estrutura de cada campo */
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.campo label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.campo input, 
+.campo select, 
+.campo textarea {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.campo input:focus, 
+.campo select:focus, 
+.campo textarea:focus {
+    border-color: #0056b3;
+}
+
+/* Botão de Envio */
+.btn-enviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+.btn-enviar:hover {
+    background-color: #003d80;
+}
