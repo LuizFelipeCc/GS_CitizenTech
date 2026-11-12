@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="src/assets/css/efeitos.css">
     <link rel="stylesheet" href="src/assets/css/style.css">
 </head>
+
 <body>
     <header>
         <img src="src/assets/imgs/SPBandeira.png" alt="Logo SPMelhor">
@@ -20,19 +22,25 @@
             <li><a href="#registrar">Registros</a></li>
         </ul>
     </header>
-    
+
     <section id="info-problema">
         <img src="src/assets/imgs/ImagemBuraco.jpg" alt="Buraco na rua">
         <div class="bloco-texto">
             <h3>Buracos na rua, iluminação falha ou lixo acumulado?</h3>
-            <p>Não deixe os problemas do seu bairro passarem despercebidos. O <strong>SPMelhor</strong> é um canal direto com a comunidade que permite registrar ocorrências urbanas em poucos segundos, categorizando por nível de risco para que os cidadãos possam monitorar, cobrar soluções mais rápidas e transformar a nossa cidade em um lugar mais seguro para todos.</p>
+            <p>Não deixe os problemas do seu bairro passarem despercebidos. O <strong>SPMelhor</strong> é um canal
+                direto com a comunidade que permite registrar ocorrências urbanas em poucos segundos, categorizando por
+                nível de risco para que os cidadãos possam monitorar, cobrar soluções mais rápidas e transformar a nossa
+                cidade em um lugar mais seguro para todos.</p>
         </div>
     </section>
     <section id="tecnologia">
         <img src="src/assets/imgs/pessoasprogramando.avif" alt="Pessoas Programando">
         <div class="bloco-texto">
             <h3>Tecnologia a Serviço da Comunidade</h3>
-            <p>Criado para ser simples, rápido e fácil de usar, o nosso sistema funciona diretamente no celular ou computador, sem complicações. A nossa plataforma transforma a tecnologia numa ponte direta entre o cidadão e a cidade, garantindo que qualquer pessoa consiga pedir melhorias e acompanhar os problemas do bairro de forma prática e transparente.</p>
+            <p>Criado para ser simples, rápido e fácil de usar, o nosso sistema funciona diretamente no celular ou
+                computador. A nossa plataforma transforma a tecnologia numa ponte direta entre o cidadão e a cidade,
+                garantindo que qualquer pessoa consiga pedir melhorias e acompanhar os problemas do bairro de forma
+                prática e transparente.</p>
         </div>
     </section>
     <section id="objetivos">
@@ -40,7 +48,7 @@
         <div>
             <h3>Objetivos</h3>
             <p>Os nossos objetivos são:</p>
-            <ul>
+            <ul class="espacamento-lista">
                 <li>Facilitar o registro e acompanhamento de problemas urbanos;</li>
                 <li>Estimular a participação da comunidade na melhoria da cidade;</li>
                 <li>Garantir transparência e responsabilização das autoridades;</li>
@@ -52,25 +60,29 @@
         <img src="src/assets/imgs/Cidade.jpg" alt="Pessoas da comunidade unidas">
         <div class="bloco-texto">
             <h3>Para Quem é o SPMelhor?</h3>
-            <p>O <strong>SPMelhor</strong> foi criado a pensar em todos os moradores, líderes comunitários e cidadãos que se preocupam com o bem-estar do seu bairro. A plataforma é intuitiva e acessível para qualquer pessoa, independentemente da idade ou facilidade com a tecnologia, servindo como uma ferramenta essencial para quem quer ver os problemas da sua região resolvidos de forma rápida e organizada.</p>
+            <p>O <strong>SPMelhor</strong> foi criado a pensar em todos os moradores, líderes comunitários e cidadãos
+                que se preocupam com o bem-estar do seu bairro. A plataforma é intuitiva e acessível para qualquer
+                pessoa, independentemente da idade ou facilidade com a tecnologia, servindo como uma ferramenta
+                essencial para quem quer ver os problemas da sua região resolvidos de forma rápida e organizada.</p>
         </div>
     </section>
     <section id="beneficios">
         <img src="src/assets/imgs/Ideal.webp" alt="">
-        <div class ="bloco-texto">
+        <div class="bloco-texto">
             <h3>Benefícios para a sua Região</h3>
-            <p>Com o <strong>SPMelhor</strong>, a sua comunidade dá um passo importante para se tornar uma cidade inteligente, moderna e ideal para se viver. Ao organizar as ocorrências da região (como ruas escuras, buracos perigosos e vias danificadas), a plataforma ajuda a prevenir acidentes, tornando os bairros muito mais seguros, integrados e eficientes para todos os moradores.</p>
+            <p>Com o <strong>SPMelhor</strong>, a sua comunidade dá um passo importante para se tornar uma cidade
+                inteligente, moderna e ideal para se viver. Ao organizar as ocorrências da região (como ruas escuras,
+                buracos perigosos e vias danificadas), a plataforma ajuda a prevenir acidentes, tornando os bairros
+                muito mais seguros, integrados e eficientes para todos os moradores.</p>
         </div>
     </section>
-<<<<<<< HEAD
     <section id="registrar">
         <div class="bloco-texto-form">
             <h3>Registre seu Problema</h3>
             <p>Descreva o problema que você encontrou</p>
         </div>
         <form action="" class="form-problema">
-            <fieldset>
-                <legend>Mande seu Relato</legend>
+            <fieldset
                 <div class="campo">
                     <label for="endereco">Endereço:</label>
                     <input type="text" id="endereco" name="endereco" placeholder="Ex: Rua Exemplo, 100">
@@ -78,51 +90,22 @@
                 <div class="campo">
                     <label for="gravidade">Gravidade do Problema:</label>
                     <select name="gravidade" id="gravidade">
-                        <option value="baixa">Baixo Risco</option>
-                        <option value="media">Médio Risco</option>
-                        <option value="alta">Alto Risco</option>
+                        <option value="Baixa">Baixo Risco</option>
+                        <option value="Mediano">Risco Mediano</option>
+                        <option value="Alta">Alto Risco</option>
                     </select>
                 </div>
                 <div class="campo">
                     <label for="descricao">Descrição do problema:</label>
-                    <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva os detalhes da ocorrência..."></textarea>
+                    <textarea id="descricao" name="descricao" rows="4"
+                        placeholder="Descreva os detalhes da ocorrência..."></textarea>
                 </div>
                 <button type="button" class="btn-enviar" onclick="cadastrarProblema()">Enviar Problema</button>
             </fieldset>
         </form>
         <div id="lista-cadastros"></div>
-=======
-    <section id="Tecnologia"></section>
-    
-    <section id="registrar">
-        <h3>Registre um Problema</h3>
-        <p>Descreva o problema que você encontrou e envie para nossa equipe.</p>
-        <br>
-        <div class="Formulario">
-            <form action="">
-            <fieldset>
-                <legend style="font-size: 30px;"><strong>Mande um Relato</strong><legend>
-                <label for="endereco">Endereço: </label>
-                <input type="text" id="endereco" name="endereco">
-                <br>
-                <label for="gravidade">Gravidade do problema:</label>
-                <select name="gravidade" id="gravidade">
-                    <option value="baixa">Baixo Risco</option>
-                    <option value="media">Médio Risco</option>
-                    <option value="alta">Alto Risco</option>
-                </select>
-                <br>
-                <label for="descricao">Descrição do problema:</label>
-                <textarea id="descricao" name="descricao"></textarea>
-                <br>
-                <button type="button" onclick="cadastrarProblema()">Enviar Problema</button>
-            </fieldset>
-            </form>
-        </div>
-        <div id="lista-cadastros">
-        </div>
->>>>>>> 17523a40fc5f2ad68a064def321fb9cf76c251b3
     </section>
     <script src="src/assets/js/script.js"></script>
 </body>
+
 </html>
