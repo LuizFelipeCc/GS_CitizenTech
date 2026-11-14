@@ -1,3 +1,5 @@
+// Seção dos Cards
+
 let todosOsCards = "";
 
 function cadastrarProblema() {
@@ -30,3 +32,38 @@ function cadastrarProblema() {
     document.getElementById("gravidade").value = "";
     document.getElementById("descricao").value = "";
 }
+
+// Seção do Slideshow
+
+const imagens = [
+      "src/assets/imgs/ImagemBuraco.jpg",
+      "src/assets/imgs/LimpandoLixos.jpg",
+      "src/assets/imgs/iluminacao-urbana.jpg",
+      "src/assets/imgs/arborizacao.jfif",
+    ];
+
+    let indice = 0;
+
+    function mostrarSlide() {
+      document.getElementById("imagem").src = imagens[indice];
+    }
+
+    function proximoSlide() {
+      indice++;
+
+      if (indice >= imagens.length) {
+        indice = 0;
+      }
+
+      mostrarSlide();
+    }
+
+    function voltarSlide() {
+      indice--;
+
+      if (indice < 0) {
+        indice = imagens.length - 1;
+      }
+
+      mostrarSlide();
+    }
