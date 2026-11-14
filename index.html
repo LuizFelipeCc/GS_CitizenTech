@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    <!-- HEADER  -->
+
     <header>
         <img src="src/assets/imgs/SPBandeira.png" alt="Logo SPMelhor">
         <h1><span class="destaque-vermelho">SP</span>Melhor</h1>
@@ -23,6 +25,8 @@
         </ul>
     </header>
 
+    <!-- Seção info-problema -->
+
     <section id="info-problema">
         <img src="src/assets/imgs/ImagemBuraco.jpg" alt="Buraco na rua">
         <div class="bloco-texto">
@@ -33,6 +37,9 @@
                 cidade em um lugar mais seguro para todos.</p>
         </div>
     </section>
+
+    <!-- Seção da Tecnologia  -->
+
     <section id="tecnologia">
         <img src="src/assets/imgs/pessoasprogramando.avif" alt="Pessoas Programando">
         <div class="bloco-texto">
@@ -43,6 +50,9 @@
                 prática e transparente.</p>
         </div>
     </section>
+
+    <!-- Seção do Objetivo   -->
+
     <section id="objetivos">
         <img src="src/assets/imgs/comunidadeUrbana.avif" alt="">
         <div>
@@ -56,6 +66,9 @@
             </ul>
         </div>
     </section>
+
+    <!-- Seção do Publico-alvo  -->
+
     <section id="publico-alvo">
         <img src="src/assets/imgs/Cidade.jpg" alt="Pessoas da comunidade unidas">
         <div class="bloco-texto">
@@ -66,6 +79,9 @@
                 essencial para quem quer ver os problemas da sua região resolvidos de forma rápida e organizada.</p>
         </div>
     </section>
+    
+    <!-- Seção dos beneficios  -->
+
     <section id="beneficios">
         <img src="src/assets/imgs/Ideal.webp" alt="">
         <div class="bloco-texto">
@@ -76,13 +92,16 @@
                 muito mais seguros, integrados e eficientes para todos os moradores.</p>
         </div>
     </section>
+
+    <!-- Seção do Registro  -->
+
     <section id="registrar">
         <div class="bloco-texto-form">
             <h3>Registre seu Problema</h3>
             <p>Descreva o problema que você encontrou</p>
         </div>
         <form action="" class="form-problema">
-            <fieldset
+            <fieldset>
                 <div class="campo">
                     <label for="endereco">Endereço:</label>
                     <input type="text" id="endereco" name="endereco" placeholder="Ex: Rua Exemplo, 100">
@@ -105,7 +124,31 @@
         </form>
         <div id="lista-cadastros"></div>
     </section>
+
+    <br><br>
+
+    <!-- Seção do SlideShow  -->
+
+    <section class="slideshow">
+        <img id="imagem" src="src/assets/imgs/ImagemBuraco.jpg" alt="Slide">
+        <br>
+
+        <button class="btn-slide" onclick="voltarSlide()">Voltar</button>
+        <button class="btn-slide" onclick="proximoSlide()">Próximo</button>
+    </section>
+    
+    <br><br>
+
+    <!-- FOOTER  -->
+
+    <footer class="estilo-footer">
+        <h6><div class="destaque-vermelho">SP</div>Melhor - Por uma Zeladoria eficaz</h4>
+        <ul>
+            <li><strong>Contate-nos:</strong> +55 0000-0000</li>
+            <li><strong>E-mail: </strong>SPMelhor@gmail.com</li>
+        </ul>
+    </footer>
+
     <script src="src/assets/js/script.js"></script>
 </body>
-
 </html>
